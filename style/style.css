@@ -1,0 +1,73 @@
+/*************
+GENERAL STYLE
+*************/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  background: #DDDDDD;
+}
+
+
+/*************
+ARTICLE STYLE
+*************/
+article {
+  border: 1px solid #aaa;
+  background: #eee;
+  width: 640px;
+  margin: 20px auto;
+}
+
+
+/*************
+SCREEN STYLE
+*************/
+#screen {
+  width: 600px;
+  height: 400px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#myCanvas {
+  width: 600px; 
+  height: 400px;
+}
+
+/*************
+MENU STYLE
+*************/
+#menu {
+  width: 100%;
+  height: 189px;
+  margin: 0 auto;
+}
+
+#menu > form > input {
+  padding: 10px 0px 10px 12px;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #555;
+  border: 1px solid #aaa;
+  background-color: #fff;
+}
+
+#menu > form > #instructions {
+  width: 100%;
+}
+
+#menu > form > input[type="button"] {
+  border: 0px solid transparent;
+  width: 100%;
+  height: 151px !important;
+  color: rgba(0,0,0,0.6);
+  font-size: 16px;
+  font-weight: bold;
+  height: 38px;
+  border: 1px solid #aaa;
+  background: #b7b7b7;
+}
